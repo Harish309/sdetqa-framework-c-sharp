@@ -18,6 +18,13 @@ namespace TestsForMobile.Tests
             App.HomePage.webElement.Tap();
             // Assert
             Assert.IsTrue(true);
+
+            // Arrange
+            App.HomePage.Open();
+            // Act
+            App.HomePage.webElement.Tap();
+            // Assert
+            Assert.IsTrue(true);
         }
     }
 }
